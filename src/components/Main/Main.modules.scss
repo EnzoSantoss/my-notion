@@ -12,34 +12,6 @@
 
     background: white;
 
-    .text-area-div {
-      padding-top: 50px;
-      margin-left: 30px;
-      width: 700px;
-
-      overflow-y: auto; // Habilita o scroll vertical apenas quando necessário
-      h1,
-      h2,
-      p {
-        padding-bottom: 20px;
-      }
-
-      // Estilizando a barra de rolagem
-      &::-webkit-scrollbar {
-        width: 5px; // Largura da barra de rolagem
-      }
-
-      &::-webkit-scrollbar-thumb {
-        background-color: #888; // Cor do thumb (alça)
-        border-radius: 5px; // Borda do thumb
-      }
-
-      &::-webkit-scrollbar-track {
-        background-color: #f1f1f1; // Cor de fundo da track (trilha)
-        border-radius: 5px; // Borda da track
-      }
-    }
-
     .side-bar-div {
       border-right: 1px solid #e0dede;
       width: 200px;
