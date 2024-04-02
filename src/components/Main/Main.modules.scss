@@ -1,0 +1,74 @@
+.main-div {
+  margin: 15px 60px 0 60px;
+  padding: 0 90px 0 90px;
+
+  .main-box-div {
+    overflow: hidden;
+    display: flex;
+    justify-content: flex-start;
+    height: 600px;
+    border-radius: 15px;
+    box-shadow: 9px 14px 27px -1px rgba(0, 0, 0, 0.75);
+
+    background: white;
+
+    .text-area-div {
+      padding-top: 50px;
+      margin-left: 30px;
+    }
+
+    .side-bar-div {
+      border-right: 1px solid #e0dede;
+      width: 200px;
+      background: #ebebeb;
+
+      .mac-btn-div {
+        margin-top: 5px;
+        margin-left: 5px;
+        .mac-btn-list {
+          display: flex;
+          width: 20px;
+          gap: 3px;
+          list-style: none;
+
+          .mac-btn-red {
+            border-radius: 100px;
+            background: #cccaca;
+            padding: 6px;
+          }
+          .mac-btn-yellow {
+            border-radius: 100px;
+            background: #cccaca;
+            padding: 6px;
+          }
+          .mac-btn-green {
+            border-radius: 100px;
+            background: #cccaca;
+            padding: 6px;
+          }
+        }
+
+        .mac-btn-list:hover {
+          .mac-btn-red {
+            border-radius: 100px;
+            background: red;
+            padding: 6px;
+            cursor: pointer;
+          }
+          .mac-btn-yellow {
+            border-radius: 100px;
+            background: yellow;
+            padding: 6px;
+            cursor: pointer;
+          }
+          .mac-btn-green {
+            border-radius: 100px;
+            background: lawngreen;
+            padding: 6px;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}
